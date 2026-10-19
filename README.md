@@ -3,6 +3,10 @@
 A little Chinese, daily. A single-user, spaced-repetition vocabulary trainer for
 HSK preparation, with an embedded web interface and SQLite-backed progress.
 
+| Session setup | Card review |
+| --- | --- |
+| ![Wren's mobile setup in dark mode](docs/wren-setup-dark.png) | ![Wren's mobile review interface in dark mode](docs/wren-review-dark.png) |
+
 ## Build and run
 
 Use the Go version declared in `go.mod`; no Node installation, frontend build,
