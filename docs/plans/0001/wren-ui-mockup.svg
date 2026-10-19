@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1160" viewBox="0 0 1440 1160" role="img" aria-labelledby="title desc">
+  <title id="title">Wren interface concept</title>
+  <desc id="desc">Warm cream and forest green design showing desktop vocabulary review, a mobile answer card, and session settings. Illustrative data only.</desc>
+  <defs>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="170%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#283d30" flood-opacity=".08"/>
+    </filter>
+    <style>
+      text { font-family: Inter, ui-sans-serif, system-ui, sans-serif; fill: #273e33; }
+      .muted { fill: #758078; }
+      .tiny { font-size: 12px; }
+      .small { font-size: 14px; }
+      .body { font-size: 16px; }
+      .label { font-size: 11px; font-weight: 650; letter-spacing: 2px; }
+      .heading { font-family: Georgia, serif; font-size: 30px; }
+      .chinese { font-family: "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .white { fill: #fffdf8; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="1160" fill="#e9ede7"/>
+  <text x="56" y="55" font-family="Georgia, serif" font-size="32">wren</text>
+  <text x="145" y="52" class="small muted">A little practice. A lasting memory.</text>
+  <text x="1384" y="52" text-anchor="end" class="label muted">UI CONCEPT / 01</text>
+
+  <text x="56" y="101" class="label muted">DESKTOP / READING / FRONT</text>
+  <rect x="56" y="118" width="920" height="650" rx="20" fill="#f7f6ef" filter="url(#shadow)"/>
+  <path d="M56 170 H976" stroke="#e4e7dd"/>
+  <circle cx="80" cy="145" r="4" fill="#c5cec2"/>
+  <circle cx="95" cy="145" r="4" fill="#c5cec2"/>
+  <circle cx="110" cy="145" r="4" fill="#c5cec2"/>
+  <text x="516" y="150" text-anchor="middle" class="tiny muted">wren / practice</text>
+
+  <text x="94" y="215" font-family="Georgia, serif" font-size="25">wren</text>
+  <rect x="178" y="193" width="72" height="29" rx="14" fill="#e6ecdf"/>
+  <text x="214" y="212" text-anchor="middle" class="tiny">HSK 3</text>
+  <text x="938" y="213" text-anchor="end" class="small muted">End session</text>
+  <text x="516" y="265" text-anchor="middle" class="heading">One word at a time.</text>
+  <text x="516" y="293" text-anchor="middle" class="small muted">Training · Read, Write &amp; Pinyin · Levels 1–3</text>
+
+  <rect x="301" y="342" width="430" height="283" rx="22" fill="#e4e8db" transform="rotate(3 516 484)"/>
+  <rect x="301" y="335" width="430" height="283" rx="22" fill="#eeeee4" transform="rotate(-2 516 477)"/>
+  <rect x="291" y="326" width="450" height="290" rx="22" fill="#fffdf8" stroke="#e3e6dc" filter="url(#shadow)"/>
+  <rect x="469" y="348" width="94" height="25" rx="12" fill="#eef2e8"/>
+  <text x="516" y="365" text-anchor="middle" class="label" style="font-size:10px;letter-spacing:1.5px">READ</text>
+  <text x="516" y="487" text-anchor="middle" class="chinese" font-size="88">相信</text>
+  <text x="516" y="534" text-anchor="middle" class="small muted">Recall the pronunciation and meaning</text>
+  <path d="M477 564 H555" stroke="#e2e6dc"/>
+  <text x="516" y="590" text-anchor="middle" class="tiny muted">Tap card or press Space to flip</text>
+
+  <rect x="291" y="643" width="150" height="46" rx="13" fill="#f1e5dc"/>
+  <text x="366" y="672" text-anchor="middle" class="small" style="fill:#985c43">← Wrong</text>
+  <text x="516" y="672" text-anchor="middle" class="small muted">Undo</text>
+  <rect x="591" y="643" width="150" height="46" rx="13" fill="#315844"/>
+  <text x="666" y="672" text-anchor="middle" class="small white">Right →</text>
+  <rect x="291" y="715" width="450" height="5" rx="2.5" fill="#e3e7dc"/>
+  <rect x="291" y="715" width="158" height="5" rx="2.5" fill="#73936a"/>
+  <text x="291" y="743" class="tiny muted">7 of 20 cards cleared</text>
+  <text x="741" y="743" text-anchor="end" class="tiny muted">13 remaining · includes retries</text>
+
+  <text x="1024" y="101" class="label muted">MOBILE / PINYIN / BACK</text>
+  <rect x="1024" y="118" width="360" height="650" rx="34" fill="#f7f6ef" stroke="#d5ddcf" stroke-width="5" filter="url(#shadow)"/>
+  <text x="1051" y="150" class="tiny">9:41</text>
+  <rect x="1172" y="132" width="65" height="16" rx="8" fill="#dbe2d5"/>
+  <text x="1358" y="150" text-anchor="end" class="tiny muted">100%</text>
+  <text x="1051" y="199" font-family="Georgia, serif" font-size="25">wren</text>
+  <text x="1357" y="195" text-anchor="end" class="small muted">End</text>
+  <rect x="1051" y="218" width="306" height="4" rx="2" fill="#e3e7dc"/>
+  <rect x="1051" y="218" width="107" height="4" rx="2" fill="#73936a"/>
+  <text x="1051" y="245" class="tiny muted">7 of 20 cleared</text>
+  <text x="1357" y="245" text-anchor="end" class="tiny muted">HSK 3</text>
+  <rect x="1065" y="283" width="278" height="319" rx="20" fill="#e3e8d9" transform="rotate(3 1204 442)"/>
+  <rect x="1051" y="270" width="306" height="323" rx="20" fill="#fffdf8" stroke="#e3e6dc" filter="url(#shadow)"/>
+  <rect x="1156" y="290" width="96" height="25" rx="12" fill="#eef2e8"/>
+  <text x="1204" y="307" text-anchor="middle" class="label" style="font-size:10px;letter-spacing:1.5px">PINYIN</text>
+  <text x="1204" y="354" text-anchor="middle" font-size="22" class="muted">xiāngxìn</text>
+  <text x="1204" y="430" text-anchor="middle" class="chinese" font-size="59">相信</text>
+  <text x="1204" y="475" text-anchor="middle" font-size="23">to believe; to trust</text>
+  <path d="M1174 514 H1234" stroke="#e2e6dc"/>
+  <text x="1204" y="554" text-anchor="middle" class="tiny muted">Tap to return to the front</text>
+  <text x="1204" y="622" text-anchor="middle" class="tiny muted">Swipe left for wrong · right for right</text>
+  <rect x="1051" y="641" width="146" height="49" rx="13" fill="#f1e5dc"/>
+  <text x="1124" y="671" text-anchor="middle" class="small" style="fill:#985c43">← Wrong</text>
+  <rect x="1211" y="641" width="146" height="49" rx="13" fill="#315844"/>
+  <text x="1284" y="671" text-anchor="middle" class="small white">Right →</text>
+  <text x="1204" y="724" text-anchor="middle" class="small muted">Undo last answer</text>
+  <rect x="1155" y="750" width="98" height="4" rx="2" fill="#c7d0c0"/>
+
+  <text x="56" y="814" class="label muted">SESSION SETUP / SHARED SETTINGS FOR DESKTOP &amp; MOBILE</text>
+  <rect x="56" y="833" width="1328" height="270" rx="20" fill="#f7f6ef" filter="url(#shadow)"/>
+  <text x="88" y="878" class="heading">Make room for a little Chinese.</text>
+  <text x="88" y="905" class="small muted">Choose your focus. We’ll take care of what comes next.</text>
+
+  <text x="88" y="946" class="label muted">VOCABULARY</text>
+  <rect x="88" y="959" width="196" height="42" rx="9" fill="#fffdf8" stroke="#dce1d4"/>
+  <text x="104" y="986" class="body">HSK 3</text>
+  <path d="M259 977 l5 5 5-5" fill="none" stroke="#758078" stroke-width="1.5"/>
+  <rect x="88" y="1017" width="17" height="17" rx="4" fill="#315844"/>
+  <path d="M92 1025 l4 4 6-7" fill="none" stroke="#fffdf8" stroke-width="2"/>
+  <text x="114" y="1031" class="small">Include lower levels</text>
+
+  <text x="328" y="946" class="label muted">CARD DIRECTIONS</text>
+  <rect x="328" y="971" width="17" height="17" rx="4" fill="#315844"/>
+  <path d="M332 979 l4 4 6-7" fill="none" stroke="#fffdf8" stroke-width="2"/>
+  <text x="354" y="985" class="small">Read</text>
+  <rect x="418" y="971" width="17" height="17" rx="4" fill="#fffdf8" stroke="#bfcab7"/>
+  <text x="444" y="985" class="small">Write</text>
+  <rect x="511" y="971" width="17" height="17" rx="4" fill="#315844"/>
+  <path d="M515 979 l4 4 6-7" fill="none" stroke="#fffdf8" stroke-width="2"/>
+  <text x="537" y="985" class="small">Pinyin</text>
+  <text x="328" y="1031" class="tiny muted">Selected directions mix during practice.</text>
+
+  <text x="656" y="946" class="label muted">SESSION TYPE</text>
+  <rect x="656" y="959" width="292" height="42" rx="10" fill="#e9ede2"/>
+  <rect x="660" y="963" width="125" height="34" rx="7" fill="#fffdf8"/>
+  <text x="722" y="985" text-anchor="middle" class="small">Training</text>
+  <text x="866" y="985" text-anchor="middle" class="small muted">Initial assessment</text>
+  <text x="656" y="1031" class="tiny muted">Due reviews first. Missed cards return.</text>
+
+  <text x="992" y="946" class="label muted">BATCH SIZE</text>
+  <rect x="992" y="959" width="80" height="42" rx="9" fill="#fffdf8" stroke="#dce1d4"/>
+  <text x="1032" y="986" text-anchor="middle" class="body">20</text>
+  <text x="992" y="1031" class="tiny muted">Initial cards</text>
+  <rect x="1116" y="959" width="232" height="48" rx="12" fill="#315844"/>
+  <text x="1232" y="989" text-anchor="middle" class="body white">Start practice →</text>
+  <text x="1232" y="1031" text-anchor="middle" class="tiny muted">Progress saves after every answer</text>
+  <text x="88" y="1079" class="tiny muted">Assessment keeps familiar words in rotation, with a longer first interval. Each direction learns independently.</text>
+  <text x="56" y="1137" class="tiny muted">Design study · Illustrative session data · System fonts · No external assets</text>
+</svg>

@@ -1,0 +1,1817 @@
+{
+  "level": 1,
+  "label": "HSK 1",
+  "metadata": {
+    "standard": "HSK 3.0",
+    "edition": "2025",
+    "source": {
+      "publisher": "Chinese Language Hub",
+      "url": "https://chineselanguagehub.com",
+      "attribution": "Provided by Chinese Language Hub (chineselanguagehub.com) a Second Language Community"
+    }
+  },
+  "totalTerms": 300,
+  "enrichedTerms": 300,
+  "terms": [
+    {
+      "simplified": "爱",
+      "traditional": "愛",
+      "pinyin": "ài",
+      "english": "love"
+    },
+    {
+      "simplified": "吧",
+      "traditional": "吧",
+      "pinyin": "ba",
+      "english": "particle (suggestion or softening tone)"
+    },
+    {
+      "simplified": "八",
+      "traditional": "八",
+      "pinyin": "bā",
+      "english": "eight"
+    },
+    {
+      "simplified": "爸爸",
+      "traditional": "爸爸",
+      "pinyin": "bàba",
+      "english": "dad"
+    },
+    {
+      "simplified": "百",
+      "traditional": "百",
+      "pinyin": "bǎi",
+      "english": "hundred"
+    },
+    {
+      "simplified": "白天",
+      "traditional": "白天",
+      "pinyin": "báitiān",
+      "english": "daytime"
+    },
+    {
+      "simplified": "半",
+      "traditional": "半",
+      "pinyin": "bàn",
+      "english": "half"
+    },
+    {
+      "simplified": "包子",
+      "traditional": "包子",
+      "pinyin": "bāozi",
+      "english": "steamed bun"
+    },
+    {
+      "simplified": "杯子",
+      "traditional": "杯子",
+      "pinyin": "bēizi",
+      "english": "cup"
+    },
+    {
+      "simplified": "本",
+      "traditional": "本",
+      "pinyin": "běn",
+      "english": "book (measure word)"
+    },
+    {
+      "simplified": "边",
+      "traditional": "邊",
+      "pinyin": "biān",
+      "english": "side"
+    },
+    {
+      "simplified": "病",
+      "traditional": "病",
+      "pinyin": "bìng",
+      "english": "illness; sick"
+    },
+    {
+      "simplified": "不",
+      "traditional": "不",
+      "pinyin": "bù",
+      "english": "not"
+    },
+    {
+      "simplified": "不客气",
+      "traditional": "不客氣",
+      "pinyin": "bù kèqi",
+      "english": "you're welcome"
+    },
+    {
+      "simplified": "不要",
+      "traditional": "不要",
+      "pinyin": "bù yào",
+      "english": "don't"
+    },
+    {
+      "simplified": "菜",
+      "traditional": "菜",
+      "pinyin": "cài",
+      "english": "dish; vegetable"
+    },
+    {
+      "simplified": "茶",
+      "traditional": "茶",
+      "pinyin": "chá",
+      "english": "tea"
+    },
+    {
+      "simplified": "唱",
+      "traditional": "唱",
+      "pinyin": "chàng",
+      "english": "sing"
+    },
+    {
+      "simplified": "超市",
+      "traditional": "超市",
+      "pinyin": "chāo shì",
+      "english": "supermarket"
+    },
+    {
+      "simplified": "车",
+      "traditional": "車",
+      "pinyin": "chē",
+      "english": "car; vehicle"
+    },
+    {
+      "simplified": "吃",
+      "traditional": "吃",
+      "pinyin": "chī",
+      "english": "eat"
+    },
+    {
+      "simplified": "穿",
+      "traditional": "穿",
+      "pinyin": "chuān",
+      "english": "wear"
+    },
+    {
+      "simplified": "出租车",
+      "traditional": "出租車",
+      "pinyin": "chūzūchē",
+      "english": "taxi"
+    },
+    {
+      "simplified": "大",
+      "traditional": "大",
+      "pinyin": "dà",
+      "english": "big; large"
+    },
+    {
+      "simplified": "打电话",
+      "traditional": "打電話",
+      "pinyin": "dǎ diànhuà",
+      "english": "make a phone call"
+    },
+    {
+      "simplified": "大家",
+      "traditional": "大家",
+      "pinyin": "dàjiā",
+      "english": "everyone"
+    },
+    {
+      "simplified": "到",
+      "traditional": "到",
+      "pinyin": "dào",
+      "english": "arrive; to"
+    },
+    {
+      "simplified": "大学",
+      "traditional": "大學",
+      "pinyin": "dàxué",
+      "english": "university"
+    },
+    {
+      "simplified": "大学生",
+      "traditional": "大學生",
+      "pinyin": "dàxuéshēng",
+      "english": "university student"
+    },
+    {
+      "simplified": "的",
+      "traditional": "的",
+      "pinyin": "de",
+      "english": "possessive particle"
+    },
+    {
+      "simplified": "第",
+      "traditional": "第",
+      "pinyin": "dì",
+      "english": "prefix for ordinal numbers"
+    },
+    {
+      "simplified": "店",
+      "traditional": "店",
+      "pinyin": "diàn",
+      "english": "store"
+    },
+    {
+      "simplified": "点",
+      "traditional": "點",
+      "pinyin": "diǎn",
+      "english": "o'clock; point"
+    },
+    {
+      "simplified": "电话",
+      "traditional": "電話",
+      "pinyin": "diànhuà",
+      "english": "telephone"
+    },
+    {
+      "simplified": "电脑",
+      "traditional": "電腦",
+      "pinyin": "diànnǎo",
+      "english": "computer"
+    },
+    {
+      "simplified": "电视",
+      "traditional": "電視",
+      "pinyin": "diànshì",
+      "english": "television"
+    },
+    {
+      "simplified": "电影",
+      "traditional": "電影",
+      "pinyin": "diànyǐng",
+      "english": "movie"
+    },
+    {
+      "simplified": "电影院",
+      "traditional": "電影院",
+      "pinyin": "diànyǐngyuàn",
+      "english": "cinema"
+    },
+    {
+      "simplified": "弟弟",
+      "traditional": "弟弟",
+      "pinyin": "dìdi",
+      "english": "younger brother"
+    },
+    {
+      "simplified": "东西",
+      "traditional": "東西",
+      "pinyin": "dōngxī",
+      "english": "things; stuff"
+    },
+    {
+      "simplified": "都",
+      "traditional": "都",
+      "pinyin": "dōu",
+      "english": "all"
+    },
+    {
+      "simplified": "读",
+      "traditional": "讀",
+      "pinyin": "dú",
+      "english": "read"
+    },
+    {
+      "simplified": "对",
+      "traditional": "對",
+      "pinyin": "duì",
+      "english": "correct; towards"
+    },
+    {
+      "simplified": "对不起",
+      "traditional": "對不起",
+      "pinyin": "duìbuqǐ",
+      "english": "sorry"
+    },
+    {
+      "simplified": "多",
+      "traditional": "多",
+      "pinyin": "duō",
+      "english": "many; much"
+    },
+    {
+      "simplified": "多少",
+      "traditional": "多少",
+      "pinyin": "duōshǎo",
+      "english": "how much; how many"
+    },
+    {
+      "simplified": "读书",
+      "traditional": "讀書",
+      "pinyin": "dúshū",
+      "english": "study; read books"
+    },
+    {
+      "simplified": "二",
+      "traditional": "二",
+      "pinyin": "èr",
+      "english": "two"
+    },
+    {
+      "simplified": "儿子",
+      "traditional": "兒子",
+      "pinyin": "érzi",
+      "english": "son"
+    },
+    {
+      "simplified": "饭",
+      "traditional": "飯",
+      "pinyin": "fàn",
+      "english": "rice; meal"
+    },
+    {
+      "simplified": "饭店",
+      "traditional": "飯店",
+      "pinyin": "fàndiàn",
+      "english": "restaurant; hotel"
+    },
+    {
+      "simplified": "房间",
+      "traditional": "房間",
+      "pinyin": "fángjiān",
+      "english": "room"
+    },
+    {
+      "simplified": "非常",
+      "traditional": "非常",
+      "pinyin": "fēi cháng",
+      "english": "very; extremely"
+    },
+    {
+      "simplified": "飞机",
+      "traditional": "飛機",
+      "pinyin": "fēi jī",
+      "english": "airplane"
+    },
+    {
+      "simplified": "分",
+      "traditional": "分",
+      "pinyin": "fēn",
+      "english": "point; minute"
+    },
+    {
+      "simplified": "分钟",
+      "traditional": "分鐘",
+      "pinyin": "fēn zhōng",
+      "english": "minute"
+    },
+    {
+      "simplified": "高兴",
+      "traditional": "高興",
+      "pinyin": "gāoxìng",
+      "english": "happy"
+    },
+    {
+      "simplified": "个",
+      "traditional": "個",
+      "pinyin": "gè",
+      "english": "measure word"
+    },
+    {
+      "simplified": "歌",
+      "traditional": "歌",
+      "pinyin": "gē",
+      "english": "song"
+    },
+    {
+      "simplified": "哥哥",
+      "traditional": "哥哥",
+      "pinyin": "gēge",
+      "english": "older brother"
+    },
+    {
+      "simplified": "给",
+      "traditional": "給",
+      "pinyin": "gěi",
+      "english": "give; for"
+    },
+    {
+      "simplified": "公司",
+      "traditional": "公司",
+      "pinyin": "gōngsī",
+      "english": "company"
+    },
+    {
+      "simplified": "工作",
+      "traditional": "工作",
+      "pinyin": "gōngzuò",
+      "english": "work; job"
+    },
+    {
+      "simplified": "狗",
+      "traditional": "狗",
+      "pinyin": "gǒu",
+      "english": "dog"
+    },
+    {
+      "simplified": "贵",
+      "traditional": "貴",
+      "pinyin": "guì",
+      "english": "expensive"
+    },
+    {
+      "simplified": "国",
+      "traditional": "國",
+      "pinyin": "guó",
+      "english": "country"
+    },
+    {
+      "simplified": "还",
+      "traditional": "還",
+      "pinyin": "hái",
+      "english": "still; yet"
+    },
+    {
+      "simplified": "孩子",
+      "traditional": "孩子",
+      "pinyin": "háizi",
+      "english": "child; children"
+    },
+    {
+      "simplified": "汉语",
+      "traditional": "漢語",
+      "pinyin": "Hànyǔ",
+      "english": "Chinese (language)"
+    },
+    {
+      "simplified": "汉字",
+      "traditional": "漢字",
+      "pinyin": "hànzì",
+      "english": "Chinese character"
+    },
+    {
+      "simplified": "号",
+      "traditional": "號",
+      "pinyin": "hào",
+      "english": "number; date"
+    },
+    {
+      "simplified": "好",
+      "traditional": "好",
+      "pinyin": "hǎo",
+      "english": "good"
+    },
+    {
+      "simplified": "好吃",
+      "traditional": "好吃",
+      "pinyin": "hǎochī",
+      "english": "delicious"
+    },
+    {
+      "simplified": "好看",
+      "traditional": "好看",
+      "pinyin": "hǎokàn",
+      "english": "good-looking; beautiful"
+    },
+    {
+      "simplified": "好听",
+      "traditional": "好聽",
+      "pinyin": "hǎotīng",
+      "english": "pleasant to hear"
+    },
+    {
+      "simplified": "好玩儿",
+      "traditional": "好玩兒",
+      "pinyin": "hǎowánr",
+      "english": "fun; interesting"
+    },
+    {
+      "simplified": "和",
+      "traditional": "和",
+      "pinyin": "hé",
+      "english": "and; with"
+    },
+    {
+      "simplified": "喝",
+      "traditional": "喝",
+      "pinyin": "hē",
+      "english": "to drink"
+    },
+    {
+      "simplified": "很",
+      "traditional": "很",
+      "pinyin": "hěn",
+      "english": "very"
+    },
+    {
+      "simplified": "后",
+      "traditional": "後",
+      "pinyin": "hòu",
+      "english": "behind; after"
+    },
+    {
+      "simplified": "回",
+      "traditional": "回",
+      "pinyin": "huí",
+      "english": "return; go back"
+    },
+    {
+      "simplified": "会",
+      "traditional": "會",
+      "pinyin": "huì",
+      "english": "can; will; meeting"
+    },
+    {
+      "simplified": "火车",
+      "traditional": "火車",
+      "pinyin": "huǒchē",
+      "english": "train"
+    },
+    {
+      "simplified": "几",
+      "traditional": "幾",
+      "pinyin": "jǐ",
+      "english": "how many; several"
+    },
+    {
+      "simplified": "家",
+      "traditional": "家",
+      "pinyin": "jiā",
+      "english": "home; family"
+    },
+    {
+      "simplified": "见",
+      "traditional": "見",
+      "pinyin": "jiàn",
+      "english": "to see; to meet"
+    },
+    {
+      "simplified": "件",
+      "traditional": "件",
+      "pinyin": "jiàn",
+      "english": "item"
+    },
+    {
+      "simplified": "叫",
+      "traditional": "叫",
+      "pinyin": "jiào",
+      "english": "call; be named"
+    },
+    {
+      "simplified": "饺子",
+      "traditional": "餃子",
+      "pinyin": "jiǎozi",
+      "english": "dumpling"
+    },
+    {
+      "simplified": "家人",
+      "traditional": "家人",
+      "pinyin": "jiā rén",
+      "english": "family members"
+    },
+    {
+      "simplified": "鸡蛋",
+      "traditional": "雞蛋",
+      "pinyin": "jīdàn",
+      "english": "egg"
+    },
+    {
+      "simplified": "姐姐",
+      "traditional": "姐姐",
+      "pinyin": "jiějie",
+      "english": "older sister"
+    },
+    {
+      "simplified": "今年",
+      "traditional": "今年",
+      "pinyin": "jīnnián",
+      "english": "this year"
+    },
+    {
+      "simplified": "今天",
+      "traditional": "今天",
+      "pinyin": "jīntiān",
+      "english": "today"
+    },
+    {
+      "simplified": "九",
+      "traditional": "九",
+      "pinyin": "jiǔ",
+      "english": "nine"
+    },
+    {
+      "simplified": "觉得",
+      "traditional": "覺得",
+      "pinyin": "jué de",
+      "english": "to feel; to think"
+    },
+    {
+      "simplified": "开",
+      "traditional": "開",
+      "pinyin": "kāi",
+      "english": "to open; to turn on"
+    },
+    {
+      "simplified": "开车",
+      "traditional": "開車",
+      "pinyin": "kāi chē",
+      "english": "to drive"
+    },
+    {
+      "simplified": "看",
+      "traditional": "看",
+      "pinyin": "kàn",
+      "english": "to see; to look; to watch"
+    },
+    {
+      "simplified": "看病",
+      "traditional": "看病",
+      "pinyin": "kàn bìng",
+      "english": "to see a doctor"
+    },
+    {
+      "simplified": "看见",
+      "traditional": "看見",
+      "pinyin": "kàn jiàn",
+      "english": "see"
+    },
+    {
+      "simplified": "课",
+      "traditional": "課",
+      "pinyin": "kè",
+      "english": "class; lesson"
+    },
+    {
+      "simplified": "可以",
+      "traditional": "可以",
+      "pinyin": "kě yǐ",
+      "english": "can"
+    },
+    {
+      "simplified": "口",
+      "traditional": "口",
+      "pinyin": "kǒu",
+      "english": "mouth"
+    },
+    {
+      "simplified": "块",
+      "traditional": "塊",
+      "pinyin": "kuài",
+      "english": "piece; yuan (currency)"
+    },
+    {
+      "simplified": "来",
+      "traditional": "來",
+      "pinyin": "lái",
+      "english": "to come"
+    },
+    {
+      "simplified": "老师",
+      "traditional": "老師",
+      "pinyin": "lǎoshī",
+      "english": "teacher"
+    },
+    {
+      "simplified": "了",
+      "traditional": "了",
+      "pinyin": "le",
+      "english": "(particle indicating a completed action or change of state)"
+    },
+    {
+      "simplified": "冷",
+      "traditional": "冷",
+      "pinyin": "lěng",
+      "english": "cold"
+    },
+    {
+      "simplified": "里",
+      "traditional": "裡",
+      "pinyin": "lǐ",
+      "english": "inside"
+    },
+    {
+      "simplified": "两",
+      "traditional": "兩",
+      "pinyin": "liǎng",
+      "english": "two"
+    },
+    {
+      "simplified": "零",
+      "traditional": "零",
+      "pinyin": "líng",
+      "english": "zero"
+    },
+    {
+      "simplified": "六",
+      "traditional": "六",
+      "pinyin": "liù",
+      "english": "six"
+    },
+    {
+      "simplified": "吗",
+      "traditional": "嗎",
+      "pinyin": "ma",
+      "english": "question particle"
+    },
+    {
+      "simplified": "卖",
+      "traditional": "賣",
+      "pinyin": "mài",
+      "english": "sell"
+    },
+    {
+      "simplified": "买",
+      "traditional": "買",
+      "pinyin": "mǎi",
+      "english": "to buy"
+    },
+    {
+      "simplified": "妈妈",
+      "traditional": "媽媽",
+      "pinyin": "mā ma",
+      "english": "mom"
+    },
+    {
+      "simplified": "忙",
+      "traditional": "忙",
+      "pinyin": "máng",
+      "english": "busy"
+    },
+    {
+      "simplified": "猫",
+      "traditional": "貓",
+      "pinyin": "māo",
+      "english": "cat"
+    },
+    {
+      "simplified": "没关系",
+      "traditional": "沒關係",
+      "pinyin": "méi guānxi",
+      "english": "it doesn't matter"
+    },
+    {
+      "simplified": "妹妹",
+      "traditional": "妹妹",
+      "pinyin": "mèimei",
+      "english": "younger sister"
+    },
+    {
+      "simplified": "没事",
+      "traditional": "沒事",
+      "pinyin": "méi shì",
+      "english": "no problem, it's nothing"
+    },
+    {
+      "simplified": "没有",
+      "traditional": "沒有",
+      "pinyin": "méiyǒu",
+      "english": "don't have; there isn't"
+    },
+    {
+      "simplified": "们",
+      "traditional": "們",
+      "pinyin": "men",
+      "english": "plural marker"
+    },
+    {
+      "simplified": "面包",
+      "traditional": "麵包",
+      "pinyin": "miànbāo",
+      "english": "bread"
+    },
+    {
+      "simplified": "面条儿",
+      "traditional": "麵條兒",
+      "pinyin": "miàntiáor",
+      "english": "noodles"
+    },
+    {
+      "simplified": "米饭",
+      "traditional": "米飯",
+      "pinyin": "mǐfàn",
+      "english": "cooked rice"
+    },
+    {
+      "simplified": "明年",
+      "traditional": "明年",
+      "pinyin": "míngnián",
+      "english": "next year"
+    },
+    {
+      "simplified": "明天",
+      "traditional": "明天",
+      "pinyin": "míngtiān",
+      "english": "tomorrow"
+    },
+    {
+      "simplified": "名字",
+      "traditional": "名字",
+      "pinyin": "míngzì",
+      "english": "name"
+    },
+    {
+      "simplified": "那",
+      "traditional": "那",
+      "pinyin": "nà",
+      "english": "that"
+    },
+    {
+      "simplified": "哪",
+      "traditional": "哪",
+      "pinyin": "nǎ",
+      "english": "which; where"
+    },
+    {
+      "simplified": "那边",
+      "traditional": "那邊",
+      "pinyin": "nàbiān",
+      "english": "over there"
+    },
+    {
+      "simplified": "那个",
+      "traditional": "那個",
+      "pinyin": "nà ge",
+      "english": "that one"
+    },
+    {
+      "simplified": "哪个",
+      "traditional": "哪個",
+      "pinyin": "nǎ ge",
+      "english": "which one"
+    },
+    {
+      "simplified": "那里",
+      "traditional": "那裡",
+      "pinyin": "nàlǐ",
+      "english": "there"
+    },
+    {
+      "simplified": "哪里",
+      "traditional": "哪裡",
+      "pinyin": "nǎlǐ",
+      "english": "where"
+    },
+    {
+      "simplified": "男",
+      "traditional": "男",
+      "pinyin": "nán",
+      "english": "male"
+    },
+    {
+      "simplified": "男朋友",
+      "traditional": "男朋友",
+      "pinyin": "nán péng you",
+      "english": "boyfriend"
+    },
+    {
+      "simplified": "那儿",
+      "traditional": "那兒",
+      "pinyin": "nàr",
+      "english": "there"
+    },
+    {
+      "simplified": "哪儿",
+      "traditional": "哪兒",
+      "pinyin": "nǎr",
+      "english": "where"
+    },
+    {
+      "simplified": "那些",
+      "traditional": "那些",
+      "pinyin": "nàxiē",
+      "english": "those"
+    },
+    {
+      "simplified": "哪些",
+      "traditional": "哪些",
+      "pinyin": "nǎxiē",
+      "english": "which (plural)"
+    },
+    {
+      "simplified": "呢",
+      "traditional": "呢",
+      "pinyin": "ne",
+      "english": "question particle; indicates emphasis"
+    },
+    {
+      "simplified": "能",
+      "traditional": "能",
+      "pinyin": "néng",
+      "english": "can; be able to"
+    },
+    {
+      "simplified": "你",
+      "traditional": "你",
+      "pinyin": "nǐ",
+      "english": "you"
+    },
+    {
+      "simplified": "你好",
+      "traditional": "你好",
+      "pinyin": "nǐ hǎo",
+      "english": "hello"
+    },
+    {
+      "simplified": "年",
+      "traditional": "年",
+      "pinyin": "nián",
+      "english": "year"
+    },
+    {
+      "simplified": "你们",
+      "traditional": "你們",
+      "pinyin": "nǐmen",
+      "english": "you (plural)"
+    },
+    {
+      "simplified": "您",
+      "traditional": "您",
+      "pinyin": "nín",
+      "english": "you (polite form)"
+    },
+    {
+      "simplified": "牛奶",
+      "traditional": "牛奶",
+      "pinyin": "niúnǎi",
+      "english": "milk"
+    },
+    {
+      "simplified": "女",
+      "traditional": "女",
+      "pinyin": "nǚ",
+      "english": "female"
+    },
+    {
+      "simplified": "女儿",
+      "traditional": "女兒",
+      "pinyin": "nǚ'ér",
+      "english": "daughter"
+    },
+    {
+      "simplified": "女朋友",
+      "traditional": "女朋友",
+      "pinyin": "nǚ péngyǒu",
+      "english": "girlfriend"
+    },
+    {
+      "simplified": "女士",
+      "traditional": "女士",
+      "pinyin": "nǚshì",
+      "english": "lady; Ms."
+    },
+    {
+      "simplified": "朋友",
+      "traditional": "朋友",
+      "pinyin": "péngyǒu",
+      "english": "friend"
+    },
+    {
+      "simplified": "便宜",
+      "traditional": "便宜",
+      "pinyin": "pián yí",
+      "english": "cheap"
+    },
+    {
+      "simplified": "漂亮",
+      "traditional": "漂亮",
+      "pinyin": "piào liàng",
+      "english": "beautiful"
+    },
+    {
+      "simplified": "苹果",
+      "traditional": "蘋果",
+      "pinyin": "píng guǒ",
+      "english": "apple"
+    },
+    {
+      "simplified": "七",
+      "traditional": "七",
+      "pinyin": "qī",
+      "english": "seven"
+    },
+    {
+      "simplified": "前",
+      "traditional": "前",
+      "pinyin": "qián",
+      "english": "front; before"
+    },
+    {
+      "simplified": "钱",
+      "traditional": "錢",
+      "pinyin": "qián",
+      "english": "money"
+    },
+    {
+      "simplified": "千",
+      "traditional": "千",
+      "pinyin": "qiān",
+      "english": "thousand"
+    },
+    {
+      "simplified": "起床",
+      "traditional": "起床",
+      "pinyin": "qǐchuáng",
+      "english": "to get out of bed"
+    },
+    {
+      "simplified": "请",
+      "traditional": "請",
+      "pinyin": "qǐng",
+      "english": "please; invite"
+    },
+    {
+      "simplified": "请问",
+      "traditional": "請問",
+      "pinyin": "qǐngwèn",
+      "english": "excuse me; may I ask"
+    },
+    {
+      "simplified": "去",
+      "traditional": "去",
+      "pinyin": "qù",
+      "english": "to go"
+    },
+    {
+      "simplified": "去年",
+      "traditional": "去年",
+      "pinyin": "qù nián",
+      "english": "last year"
+    },
+    {
+      "simplified": "热",
+      "traditional": "熱",
+      "pinyin": "rè",
+      "english": "hot"
+    },
+    {
+      "simplified": "人",
+      "traditional": "人",
+      "pinyin": "rén",
+      "english": "person; people"
+    },
+    {
+      "simplified": "认识",
+      "traditional": "認識",
+      "pinyin": "rèn shi",
+      "english": "to know; to recognize"
+    },
+    {
+      "simplified": "日",
+      "traditional": "日",
+      "pinyin": "rì",
+      "english": "day; date"
+    },
+    {
+      "simplified": "三",
+      "traditional": "三",
+      "pinyin": "sān",
+      "english": "three"
+    },
+    {
+      "simplified": "上",
+      "traditional": "上",
+      "pinyin": "shàng",
+      "english": "up; go up"
+    },
+    {
+      "simplified": "上班",
+      "traditional": "上班",
+      "pinyin": "shàngbān",
+      "english": "go to work"
+    },
+    {
+      "simplified": "商店",
+      "traditional": "商店",
+      "pinyin": "shāngdiàn",
+      "english": "shop; store"
+    },
+    {
+      "simplified": "上课",
+      "traditional": "上課",
+      "pinyin": "shàng kè",
+      "english": "attend class"
+    },
+    {
+      "simplified": "上午",
+      "traditional": "上午",
+      "pinyin": "shàngwǔ",
+      "english": "morning"
+    },
+    {
+      "simplified": "上学",
+      "traditional": "上學",
+      "pinyin": "shàngxué",
+      "english": "to go to school"
+    },
+    {
+      "simplified": "少",
+      "traditional": "少",
+      "pinyin": "shǎo",
+      "english": "few; little; less"
+    },
+    {
+      "simplified": "谁",
+      "traditional": "誰",
+      "pinyin": "shéi",
+      "english": "who"
+    },
+    {
+      "simplified": "生病",
+      "traditional": "生病",
+      "pinyin": "shēngbìng",
+      "english": "to fall ill"
+    },
+    {
+      "simplified": "什么",
+      "traditional": "什麼",
+      "pinyin": "shénme",
+      "english": "what"
+    },
+    {
+      "simplified": "十",
+      "traditional": "十",
+      "pinyin": "shí",
+      "english": "ten"
+    },
+    {
+      "simplified": "事",
+      "traditional": "事",
+      "pinyin": "shì",
+      "english": "matter; thing; affair"
+    },
+    {
+      "simplified": "是",
+      "traditional": "是",
+      "pinyin": "shì",
+      "english": "is; are; am"
+    },
+    {
+      "simplified": "时候",
+      "traditional": "時候",
+      "pinyin": "shíhou",
+      "english": "time; moment"
+    },
+    {
+      "simplified": "时间",
+      "traditional": "時間",
+      "pinyin": "shíjiān",
+      "english": "time"
+    },
+    {
+      "simplified": "手机",
+      "traditional": "手機",
+      "pinyin": "shǒujī",
+      "english": "mobile phone"
+    },
+    {
+      "simplified": "书",
+      "traditional": "書",
+      "pinyin": "shū",
+      "english": "book"
+    },
+    {
+      "simplified": "书店",
+      "traditional": "書店",
+      "pinyin": "shū diàn",
+      "english": "bookstore"
+    },
+    {
+      "simplified": "睡",
+      "traditional": "睡",
+      "pinyin": "shuì",
+      "english": "to sleep"
+    },
+    {
+      "simplified": "水",
+      "traditional": "水",
+      "pinyin": "shuǐ",
+      "english": "water"
+    },
+    {
+      "simplified": "水果",
+      "traditional": "水果",
+      "pinyin": "shuǐ guǒ",
+      "english": "fruit"
+    },
+    {
+      "simplified": "睡觉",
+      "traditional": "睡覺",
+      "pinyin": "shuì jiào",
+      "english": "to sleep"
+    },
+    {
+      "simplified": "说",
+      "traditional": "說",
+      "pinyin": "shuō",
+      "english": "to say; to speak"
+    },
+    {
+      "simplified": "说话",
+      "traditional": "說話",
+      "pinyin": "shuō huà",
+      "english": "to talk; to speak"
+    },
+    {
+      "simplified": "四",
+      "traditional": "四",
+      "pinyin": "sì",
+      "english": "four"
+    },
+    {
+      "simplified": "岁",
+      "traditional": "歲",
+      "pinyin": "suì",
+      "english": "year (of age)"
+    },
+    {
+      "simplified": "他",
+      "traditional": "他",
+      "pinyin": "tā",
+      "english": "he; him"
+    },
+    {
+      "simplified": "它",
+      "traditional": "它",
+      "pinyin": "tā",
+      "english": "it"
+    },
+    {
+      "simplified": "她",
+      "traditional": "她",
+      "pinyin": "tā",
+      "english": "she; her"
+    },
+    {
+      "simplified": "太",
+      "traditional": "太",
+      "pinyin": "tài",
+      "english": "too; extremely"
+    },
+    {
+      "simplified": "他们",
+      "traditional": "他們",
+      "pinyin": "tāmen",
+      "english": "they; them (male or mixed group)"
+    },
+    {
+      "simplified": "它们",
+      "traditional": "它們",
+      "pinyin": "tāmen",
+      "english": "they"
+    },
+    {
+      "simplified": "她们",
+      "traditional": "她們",
+      "pinyin": "tāmen",
+      "english": "they; them (female group)"
+    },
+    {
+      "simplified": "天",
+      "traditional": "天",
+      "pinyin": "tiān",
+      "english": "day; sky"
+    },
+    {
+      "simplified": "天气",
+      "traditional": "天氣",
+      "pinyin": "tiānqì",
+      "english": "weather"
+    },
+    {
+      "simplified": "听",
+      "traditional": "聽",
+      "pinyin": "tīng",
+      "english": "listen"
+    },
+    {
+      "simplified": "听见",
+      "traditional": "聽見",
+      "pinyin": "tīngjiàn",
+      "english": "to hear"
+    },
+    {
+      "simplified": "同学",
+      "traditional": "同學",
+      "pinyin": "tóngxué",
+      "english": "classmate"
+    },
+    {
+      "simplified": "外",
+      "traditional": "外",
+      "pinyin": "wài",
+      "english": "outside; external"
+    },
+    {
+      "simplified": "外边",
+      "traditional": "外邊",
+      "pinyin": "wàibiān",
+      "english": "outside"
+    },
+    {
+      "simplified": "玩",
+      "traditional": "玩",
+      "pinyin": "wán",
+      "english": "play, have fun"
+    },
+    {
+      "simplified": "晚",
+      "traditional": "晚",
+      "pinyin": "wǎn",
+      "english": "late; evening"
+    },
+    {
+      "simplified": "晚饭",
+      "traditional": "晚飯",
+      "pinyin": "wǎnfàn",
+      "english": "dinner"
+    },
+    {
+      "simplified": "晚上",
+      "traditional": "晚上",
+      "pinyin": "wǎnshàng",
+      "english": "evening; night"
+    },
+    {
+      "simplified": "喂",
+      "traditional": "餵",
+      "pinyin": "wèi",
+      "english": "to feed"
+    },
+    {
+      "simplified": "问",
+      "traditional": "問",
+      "pinyin": "wèn",
+      "english": "ask"
+    },
+    {
+      "simplified": "问题",
+      "traditional": "問題",
+      "pinyin": "wèntí",
+      "english": "question"
+    },
+    {
+      "simplified": "我",
+      "traditional": "我",
+      "pinyin": "wǒ",
+      "english": "I; me"
+    },
+    {
+      "simplified": "我们",
+      "traditional": "我們",
+      "pinyin": "wǒmen",
+      "english": "we; us"
+    },
+    {
+      "simplified": "五",
+      "traditional": "五",
+      "pinyin": "wǔ",
+      "english": "five"
+    },
+    {
+      "simplified": "午饭",
+      "traditional": "午飯",
+      "pinyin": "wǔ fàn",
+      "english": "lunch"
+    },
+    {
+      "simplified": "下",
+      "traditional": "下",
+      "pinyin": "xià",
+      "english": "down; under"
+    },
+    {
+      "simplified": "下雨",
+      "traditional": "下雨",
+      "pinyin": "xià yǔ",
+      "english": "rain"
+    },
+    {
+      "simplified": "下班",
+      "traditional": "下班",
+      "pinyin": "xià bān",
+      "english": "to finish work"
+    },
+    {
+      "simplified": "下课",
+      "traditional": "下課",
+      "pinyin": "xià kè",
+      "english": "finish class"
+    },
+    {
+      "simplified": "想",
+      "traditional": "想",
+      "pinyin": "xiǎng",
+      "english": "want; think"
+    },
+    {
+      "simplified": "先生",
+      "traditional": "先生",
+      "pinyin": "xiānshēng",
+      "english": "Mr.; sir"
+    },
+    {
+      "simplified": "现在",
+      "traditional": "現在",
+      "pinyin": "xiànzài",
+      "english": "now"
+    },
+    {
+      "simplified": "小",
+      "traditional": "小",
+      "pinyin": "xiǎo",
+      "english": "small"
+    },
+    {
+      "simplified": "小朋友",
+      "traditional": "小朋友",
+      "pinyin": "xiǎo péngyǒu",
+      "english": "little friend; child"
+    },
+    {
+      "simplified": "小时",
+      "traditional": "小時",
+      "pinyin": "xiǎoshí",
+      "english": "hour"
+    },
+    {
+      "simplified": "小学",
+      "traditional": "小學",
+      "pinyin": "xiǎoxué",
+      "english": "primary school"
+    },
+    {
+      "simplified": "小学生",
+      "traditional": "小學生",
+      "pinyin": "xiǎoxuéshēng",
+      "english": "primary school student"
+    },
+    {
+      "simplified": "下午",
+      "traditional": "下午",
+      "pinyin": "xiàwǔ",
+      "english": "afternoon"
+    },
+    {
+      "simplified": "写",
+      "traditional": "寫",
+      "pinyin": "xiě",
+      "english": "to write"
+    },
+    {
+      "simplified": "些",
+      "traditional": "些",
+      "pinyin": "xiē",
+      "english": "some"
+    },
+    {
+      "simplified": "谢谢",
+      "traditional": "謝謝",
+      "pinyin": "xièxie",
+      "english": "thank you"
+    },
+    {
+      "simplified": "喜欢",
+      "traditional": "喜歡",
+      "pinyin": "xǐ huān",
+      "english": "to like"
+    },
+    {
+      "simplified": "新",
+      "traditional": "新",
+      "pinyin": "xīn",
+      "english": "new"
+    },
+    {
+      "simplified": "星期",
+      "traditional": "星期",
+      "pinyin": "xīngqī",
+      "english": "week; day of the week"
+    },
+    {
+      "simplified": "星期日",
+      "traditional": "星期日",
+      "pinyin": "xīngqīrì",
+      "english": "Sunday"
+    },
+    {
+      "simplified": "星期天",
+      "traditional": "星期天",
+      "pinyin": "xīngqītiān",
+      "english": "Sunday"
+    },
+    {
+      "simplified": "休息",
+      "traditional": "休息",
+      "pinyin": "xiūxi",
+      "english": "rest"
+    },
+    {
+      "simplified": "学",
+      "traditional": "學",
+      "pinyin": "xué",
+      "english": "learn; study"
+    },
+    {
+      "simplified": "雪",
+      "traditional": "雪",
+      "pinyin": "xuě",
+      "english": "snow"
+    },
+    {
+      "simplified": "学生",
+      "traditional": "學生",
+      "pinyin": "xuéshēng",
+      "english": "student"
+    },
+    {
+      "simplified": "学习",
+      "traditional": "學習",
+      "pinyin": "xuéxí",
+      "english": "study; learn"
+    },
+    {
+      "simplified": "学校",
+      "traditional": "學校",
+      "pinyin": "xuéxiào",
+      "english": "school"
+    },
+    {
+      "simplified": "要",
+      "traditional": "要",
+      "pinyin": "yào",
+      "english": "to want; to need"
+    },
+    {
+      "simplified": "也",
+      "traditional": "也",
+      "pinyin": "yě",
+      "english": "also; too"
+    },
+    {
+      "simplified": "一",
+      "traditional": "一",
+      "pinyin": "yī",
+      "english": "one"
+    },
+    {
+      "simplified": "一半",
+      "traditional": "一半",
+      "pinyin": "yī bàn",
+      "english": "half"
+    },
+    {
+      "simplified": "一点儿",
+      "traditional": "一點兒",
+      "pinyin": "yīdiǎnr",
+      "english": "a little; some"
+    },
+    {
+      "simplified": "衣服",
+      "traditional": "衣服",
+      "pinyin": "yī fú",
+      "english": "clothes"
+    },
+    {
+      "simplified": "医生",
+      "traditional": "醫生",
+      "pinyin": "yī shēng",
+      "english": "doctor"
+    },
+    {
+      "simplified": "一下",
+      "traditional": "一下",
+      "pinyin": "yī xià",
+      "english": "a moment, briefly"
+    },
+    {
+      "simplified": "一些",
+      "traditional": "一些",
+      "pinyin": "yīxiē",
+      "english": "some; a few"
+    },
+    {
+      "simplified": "医院",
+      "traditional": "醫院",
+      "pinyin": "yī yuàn",
+      "english": "hospital"
+    },
+    {
+      "simplified": "椅子",
+      "traditional": "椅子",
+      "pinyin": "yǐ zi",
+      "english": "chair"
+    },
+    {
+      "simplified": "有",
+      "traditional": "有",
+      "pinyin": "yǒu",
+      "english": "have; there is/are"
+    },
+    {
+      "simplified": "有的",
+      "traditional": "有的",
+      "pinyin": "yǒude",
+      "english": "some"
+    },
+    {
+      "simplified": "有些",
+      "traditional": "有些",
+      "pinyin": "yǒu xiē",
+      "english": "some, a few"
+    },
+    {
+      "simplified": "有点儿",
+      "traditional": "有點兒",
+      "pinyin": "yǒu diǎn er",
+      "english": "a little bit"
+    },
+    {
+      "simplified": "雨",
+      "traditional": "雨",
+      "pinyin": "yǔ",
+      "english": "rain"
+    },
+    {
+      "simplified": "元",
+      "traditional": "元",
+      "pinyin": "yuán",
+      "english": "yuan (currency)"
+    },
+    {
+      "simplified": "月",
+      "traditional": "月",
+      "pinyin": "yuè",
+      "english": "month; moon"
+    },
+    {
+      "simplified": "再",
+      "traditional": "再",
+      "pinyin": "zài",
+      "english": "again; once more"
+    },
+    {
+      "simplified": "在",
+      "traditional": "在",
+      "pinyin": "zài",
+      "english": "at; in; on"
+    },
+    {
+      "simplified": "再见",
+      "traditional": "再見",
+      "pinyin": "zàijiàn",
+      "english": "goodbye"
+    },
+    {
+      "simplified": "早",
+      "traditional": "早",
+      "pinyin": "zǎo",
+      "english": "early; morning"
+    },
+    {
+      "simplified": "早饭",
+      "traditional": "早飯",
+      "pinyin": "zǎofàn",
+      "english": "breakfast"
+    },
+    {
+      "simplified": "早上",
+      "traditional": "早上",
+      "pinyin": "zǎoshàng",
+      "english": "morning"
+    },
+    {
+      "simplified": "怎么",
+      "traditional": "怎麼",
+      "pinyin": "zěnme",
+      "english": "how; why"
+    },
+    {
+      "simplified": "怎么样",
+      "traditional": "怎麼樣",
+      "pinyin": "zěnme yàng",
+      "english": "how about"
+    },
+    {
+      "simplified": "找",
+      "traditional": "找",
+      "pinyin": "zhǎo",
+      "english": "to look for"
+    },
+    {
+      "simplified": "这",
+      "traditional": "這",
+      "pinyin": "zhè",
+      "english": "this"
+    },
+    {
+      "simplified": "这边",
+      "traditional": "這邊",
+      "pinyin": "zhè bian",
+      "english": "this side; here"
+    },
+    {
+      "simplified": "这个",
+      "traditional": "這個",
+      "pinyin": "zhè ge",
+      "english": "this one"
+    },
+    {
+      "simplified": "这里",
+      "traditional": "這裡",
+      "pinyin": "zhè lǐ",
+      "english": "here"
+    },
+    {
+      "simplified": "真",
+      "traditional": "真",
+      "pinyin": "zhēn",
+      "english": "really; truly"
+    },
+    {
+      "simplified": "正在",
+      "traditional": "正在",
+      "pinyin": "zhèngzài",
+      "english": "in the process of; currently"
+    },
+    {
+      "simplified": "这儿",
+      "traditional": "這兒",
+      "pinyin": "zhèr",
+      "english": "here"
+    },
+    {
+      "simplified": "这些",
+      "traditional": "這些",
+      "pinyin": "zhè xiē",
+      "english": "these"
+    },
+    {
+      "simplified": "只",
+      "traditional": "只",
+      "pinyin": "zhǐ",
+      "english": "only"
+    },
+    {
+      "simplified": "知道",
+      "traditional": "知道",
+      "pinyin": "zhīdào",
+      "english": "know"
+    },
+    {
+      "simplified": "中国",
+      "traditional": "中國",
+      "pinyin": "Zhōngguó",
+      "english": "China"
+    },
+    {
+      "simplified": "中文",
+      "traditional": "中文",
+      "pinyin": "Zhōngwén",
+      "english": "Chinese (language)"
+    },
+    {
+      "simplified": "中午",
+      "traditional": "中午",
+      "pinyin": "zhōngwǔ",
+      "english": "noon"
+    },
+    {
+      "simplified": "中学",
+      "traditional": "中學",
+      "pinyin": "zhōngxué",
+      "english": "middle school"
+    },
+    {
+      "simplified": "中学生",
+      "traditional": "中學生",
+      "pinyin": "zhōngxuéshēng",
+      "english": "middle school student"
+    },
+    {
+      "simplified": "住",
+      "traditional": "住",
+      "pinyin": "zhù",
+      "english": "live; reside"
+    },
+    {
+      "simplified": "桌子",
+      "traditional": "桌子",
+      "pinyin": "zhuōzi",
+      "english": "table"
+    },
+    {
+      "simplified": "字",
+      "traditional": "字",
+      "pinyin": "zì",
+      "english": "character; word"
+    },
+    {
+      "simplified": "坐",
+      "traditional": "坐",
+      "pinyin": "zuò",
+      "english": "sit; take (transport)"
+    },
+    {
+      "simplified": "做",
+      "traditional": "做",
+      "pinyin": "zuò",
+      "english": "do; make"
+    },
+    {
+      "simplified": "做饭",
+      "traditional": "做飯",
+      "pinyin": "zuò fàn",
+      "english": "to cook"
+    },
+    {
+      "simplified": "昨天",
+      "traditional": "昨天",
+      "pinyin": "zuótiān",
+      "english": "yesterday"
+    }
+  ]
+}
