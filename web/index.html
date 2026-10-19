@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Wren: a little Chinese, daily. Spaced-repetition practice for HSK vocabulary.">
+  <title>Wren · A little Chinese, daily.</title>
+  <link rel="icon" href="/images/wren.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/app.css">
+  <script type="module" src="/js/app.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <a class="wordmark" href="/" aria-label="Wren home">wren<span class="wordmark-dot"></span></a>
+      <span class="tagline">A little practice. A lasting memory.</span>
+      <button id="leave" class="text-button" hidden>Pause session</button>
+    </header>
+    <div id="message" class="message" role="alert" hidden>
+      <span id="message-text"></span>
+      <button id="retry" class="text-button" hidden>Retry</button>
+      <button id="refresh" class="text-button" hidden>Reload progress</button>
+    </div>
+    <p id="loading" class="loading" role="status">Preparing your vocabulary…</p>
+    <section id="setup" class="setup" hidden aria-labelledby="setup-title">
+      <div class="intro">
+        <span class="eyebrow">YOUR DAILY PRACTICE</span>
+        <h1 id="setup-title">Make room for <br>a little Chinese.</h1>
+        <p>Find the words you don't know.<br>Keep the ones you do.</p>
+        <div class="intro-mark" lang="zh-Hans" aria-hidden="true">学</div>
+        <p class="scope-note">HSK 3.0 · 2025 vocabulary<br>Text-only practice. Pinyin is not audio listening.</p>
+      </div>
+      <div class="setup-panel">
+        <div id="resume-panel" class="resume-panel" hidden>
+          <h2>A little more to go.</h2>
+          <p id="resume-detail"></p>
+          <button id="resume" class="primary">Resume session</button>
+          <button id="end" class="text-button">End it and choose a new session</button>
+        </div>
+        <form id="settings">
+          <fieldset id="settings-fields">
+            <label class="field-label" for="level">HSK LEVEL</label>
+            <select id="level" name="level" required></select>
+            <label class="check-line lower-levels"><input id="include-lower" type="checkbox"> Include lower levels</label>
+            <p id="availability" class="hint" aria-live="polite"></p>
+            <fieldset class="directions">
+              <legend class="field-label">CARD DIRECTIONS</legend>
+              <label class="direction-option"><input type="checkbox" name="direction" value="read"><span>Read</span><small>Character first</small></label>
+              <label class="direction-option"><input type="checkbox" name="direction" value="write"><span>Write</span><small>English first</small></label>
+              <label class="direction-option"><input type="checkbox" name="direction" value="pinyin"><span>Pinyin</span><small>Pinyin first</small></label>
+              <p class="hint">Selected directions mix during practice.</p>
+            </fieldset>
+            <fieldset class="session-type">
+              <legend class="field-label">SESSION TYPE</legend>
+              <div class="segmented">
+                <label><input type="radio" name="mode" value="training"><span>Training</span></label>
+                <label><input type="radio" name="mode" value="assessment"><span>Initial assessment</span></label>
+              </div>
+              <p id="mode-hint" class="hint"></p>
+            </fieldset>
+            <label class="field-label" for="batch-size">BATCH SIZE</label>
+            <div class="batch-field"><input id="batch-size" type="number" min="1" max="100" required><span>Initial cards · retries are extra</span></div>
+            <button class="primary start" type="submit">Start practice <span aria-hidden="true">→</span></button>
+            <p class="hint saved-note">Progress saves after every answer.</p>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <section id="practice" class="practice" hidden aria-labelledby="practice-title">
+      <h1 id="practice-title">One word at a time.</h1>
+      <p id="session-description" class="session-description"></p>
+      <p id="notice" class="hint" role="status"></p>
+      <div id="stack" class="stack">
+        <div class="stack-layer layer-bottom" aria-hidden="true"></div>
+        <div class="stack-layer layer-middle" aria-hidden="true"></div>
+        <div id="motion-card" class="motion-card">
+          <div id="swipe-wrong" class="swipe-label wrong-label" aria-hidden="true">Wrong</div>
+          <div id="swipe-right" class="swipe-label right-label" aria-hidden="true">Right</div>
+          <button id="card" class="card" type="button" aria-label="Flip card to reveal answer" aria-pressed="false">
+            <span class="card-inner">
+              <span id="front-face" class="card-face">
+                <span class="direction-badge"></span>
+                <span id="front-text" class="card-main"></span>
+                <span id="front-hint" class="card-hint"></span>
+                <span class="flip-hint">Tap card or press Space to flip</span>
+              </span>
+              <span id="back-face" class="card-face card-back" aria-hidden="true" inert>
+                <span class="direction-badge"></span>
+                <span id="back-prompt" class="back-prompt"></span>
+                <span id="back-main" class="card-main"></span>
+                <span id="back-secondary" class="card-secondary"></span>
+                <span class="flip-hint">Tap to return to the front</span>
+              </span>
+            </span>
+          </button>
+        </div>
+      </div>
+      <p class="gesture-hint">Swipe left for wrong · right for right</p>
+      <div class="grade-actions">
+        <button id="wrong" class="wrong"><span aria-hidden="true">←</span> Wrong</button>
+        <button id="undo" class="text-button">Undo</button>
+        <button id="right" class="primary">Right <span aria-hidden="true">→</span></button>
+      </div>
+      <div class="progress-area">
+        <progress id="progress" max="20" value="0" aria-label="Cards cleared"></progress>
+        <div class="progress-text"><span id="cleared"></span><span id="remaining"></span></div>
+      </div>
+      <p id="saving" class="hint" role="status" aria-live="polite"></p>
+    </section>
+    <section id="complete" class="complete" hidden aria-labelledby="complete-title">
+      <div class="complete-mark" aria-hidden="true">✓</div>
+      <span class="eyebrow">A LITTLE PRACTICE, DONE</span>
+      <h1 id="complete-title">Room for something new.</h1>
+      <p id="complete-detail"></p>
+      <p class="hint">Your next reviews are scheduled. No need to rush.</p>
+      <button id="again" class="primary">Choose another session <span aria-hidden="true">→</span></button>
+      <button id="complete-undo" class="text-button">Undo last answer</button>
+    </section>
+    <footer>
+      <span>Small steps. Lasting progress.</span>
+      <span>Vocabulary provided by <a href="https://chineselanguagehub.com" rel="noreferrer" target="_blank">Chinese Language Hub</a>, a Second Language Community.</span>
+    </footer>
+    <noscript>Wren needs JavaScript for card interactions. Enable it and reload.</noscript>
+  </main>
+</body>
+</html>

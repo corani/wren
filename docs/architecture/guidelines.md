@@ -125,9 +125,8 @@ behavior and scope.
   `install`. `-g` runs `go fix` followed by gofumpt; `-b` writes `bin/wren`;
   `-i` installs the executable. Run `./build.sh -h` for help. Multiple actions
   run in argument order; a failed action leaves the script's exit status nonzero.
-- The script and module tool declarations are available before application
-  implementation. Build/install still need `cmd/wren`; the script does not
-  generate application code.
+- Build and install target `cmd/wren`; build outputs go to `bin/`. The script
+  does not generate application code.
 - Use the Go version declared by the module and keep module manifests and sums
   consistent with imported dependencies.
 - Write concise comments for contracts, intent, or non-obvious behavior. Do not

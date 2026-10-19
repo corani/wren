@@ -1,6 +1,6 @@
 # v1 design and implementation
 
-Status: design agreed in principle; implementation not started.
+Status: v1 implemented; operational instructions are in the [project README](../../../README.md).
 
 Date: 2026-10-19.
 
@@ -114,10 +114,12 @@ It uses the same front/back and right/wrong controls as training.
 - Known cards remain in spaced repetition. A later lapse brings their review
   closer again.
 
-Self-assessment is not proof of long-term retention. Record the assessment
-separately from ordinary FSRS recall events. The exact initialization policy and
-first-review intervals must be decided explicitly before implementing scheduling;
-do not fabricate past review history.
+Self-assessment is not proof of long-term retention. Record assessment separately
+from ordinary FSRS recall events; do not fabricate past review history. A known
+card is seeded with a seven-day stability estimate, FSRS's initial Good difficulty,
+and a first verification due in seven days. Its repetition count stays zero.
+An unknown assessment initializes learning through Again; retries are ordinary
+recall events and preserve the original unknown assessment.
 
 ### Training and scheduling
 
@@ -134,15 +136,14 @@ queue order. A failure must stay in the current queue even if its scheduler due
 time is later. A correct retry clears the card from this session, but the earlier
 lapse still influences its next review.
 
-Configure and verify the scheduler's learning steps for this interaction. Do not
-assume every Good on a new or relearning card immediately graduates it to a
-multi-day interval; the queue can be complete while a near-term review remains
-scheduled.
+Use one one-minute learning step and one one-minute relearning step. Again
+schedules the short step and returns the card to the queue immediately; Good
+graduates it to Review. The queue does not enforce a one-minute waiting period.
+Same-day memory updates still affect the next interval after a retry.
 
-Due reviews take priority. Do not silently pull future-due cards forward just to
-fill a batch. Show an honest empty or smaller queue when appropriate. The policy
-for introducing previously unassessed/new cards into Training remains a
-pre-implementation decision below.
+Due reviews take priority, followed by unassessed/new cards to fill the batch.
+Do not pull future-due cards forward. Show an honest empty or smaller queue when
+appropriate.
 
 Reference: [go-fsrs](https://github.com/open-spaced-repetition/go-fsrs).
 
@@ -315,8 +316,8 @@ Store the settings snapshot, initial card count, start and completion times,
 lifecycle status, and a mutation revision. Preserve enough information to resume
 the last shown word and prevent stale requests from another tab.
 
-Proposed v1 simplification: one unfinished session at a time; offer resume rather
-than implicitly replacing it. Confirm that policy before implementing.
+Keep one unfinished session at a time; offer resume or explicit end rather than
+implicitly replacing it.
 
 ### `session_cards`
 
@@ -338,12 +339,21 @@ requests; disabled controls alone are not validation.
 
 Key each row by embedded source path. Store its SHA-256 hash and successful
 import timestamp; retain presence status if needed to account for removed files.
-This table tracks vocabulary sync, not schema version.
+Preserve source metadata alongside each import. This table tracks vocabulary
+sync, not schema version.
 
 ### `schema_migrations`
 
 Record successfully applied ordered schema migrations. Use embedded SQL and a
-small versioned migration mechanism; do not conflate this with JSON hashes.
+small versioned migration mechanism, also setting SQLite's `user_version`
+transactionally; do not conflate this with JSON hashes.
+
+### `mutations`
+
+Persist each unique client mutation ID, its canonical request, and its confirmed
+response in the same transaction as the operation. Retries return the original
+response; reusing an ID with different input is a conflict. This supports
+idempotent session creation, answers, undo, pause, and end.
 
 ### Transactions and durability
 
@@ -527,21 +537,17 @@ Before completion, run the applicable checks through `./build.sh -g -t -v -l -b`
 (formatting, tests, vetting, linting, and a build).
 Confirm no runtime external asset requests or frontend build step is required.
 
-## Decisions to close before the relevant implementation step
+## Implementation defaults and scope
 
-These are not blockers to documenting the agreed design, but must not become
-silent scheduler or UX assumptions:
-
-- **Assessment initialization:** choose and test the longer first interval for
-  known cards and the memory-state initialization compatible with FSRS. Treat
-  unknown-card retries as real learning without overwriting the initial result.
-- **New cards in Training:** decide whether Training introduces unassessed cards
-  after due reviews, or whether initial assessment is required first.
-- **Learning steps and retry timing:** select FSRS learning steps consistent with
-  immediate queue-to-bottom retries, including short sessions and one-card queues.
-- **Defaults and bounds:** choose default level, enabled directions, batch size,
-  and valid batch-size limits. Mockup values such as 20 are examples.
-- **Session policy:** confirm one unfinished session at a time and the behavior
-  when the learner wants a different setup before finishing it.
-- **HSK alignment:** identify the source syllabus/version before claiming exact
-  examination vocabulary coverage; retain honest text-only vocabulary scope.
+- **Assessment:** seven-day verification for known cards; unknown cards enter
+  one-minute learning. Retries do not rewrite the initial assessment.
+- **Training:** due reviews before new cards; no early future-due fill.
+- **Learning steps:** one minute each for learning and relearning, with immediate
+  queue retries rather than an enforced wait.
+- **Initial settings:** HSK 1, include lower levels, all three directions,
+  Training, and batch size 20. Valid batch sizes are 1-100.
+- **Sessions:** one unfinished session, resumable until completed or explicitly
+  ended. Completed-session answers can be undone until another session starts.
+- **HSK source:** embedded metadata identifies HSK 3.0, 2025 edition, provided by
+  Chinese Language Hub. Do not claim full examination simulation or guaranteed
+  official syllabus coverage.
