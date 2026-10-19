@@ -4,6 +4,8 @@ Status: design agreed in principle; implementation not started.
 
 Date: 2026-10-19.
 
+Implementation follows the [engineering guidelines](../../architecture/guidelines.md).
+
 ## Goal and scope
 
 Wren is a single-user, spaced-repetition vocabulary trainer for HSK preparation.
@@ -216,7 +218,8 @@ mode or development asset server.
 ### Proposed source layout
 
 ```text
-main.go                    # Startup, configuration, embedded filesystem roots
+cmd/wren/main.go           # Command setup, startup, and dependency wiring
+embed.go                   # Root package exposing embedded web/data filesystems
 go.mod
 data/                      # Embedded, version-controlled vocabulary JSON
 web/
@@ -228,6 +231,7 @@ web/
         cards.js
     images/                # Only if needed; do not add placeholder assets
 internal/
+    config/                # Typed configuration and defaults
     store/                 # SQLite access, migrations, transactions
         migrations/
     vocabulary/            # JSON validation, level parsing, hash-based sync
@@ -519,7 +523,8 @@ mandatory browser automation dependency: tap versus drag, repeated flips,
 canceled swipes, all input methods, vertical scrolling, save failure recovery,
 light/dark OS changes, reduced motion, focus visibility, and readable contrast.
 
-Before completion, run the applicable Go tests, `go vet ./...`, and a build.
+Before completion, run the applicable checks through `./build.sh -g -t -v -l -b`
+(formatting, tests, vetting, linting, and a build).
 Confirm no runtime external asset requests or frontend build step is required.
 
 ## Decisions to close before the relevant implementation step
