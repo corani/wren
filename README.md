@@ -37,6 +37,108 @@ for example `--addr 0.0.0.0:8080`, and open the host's LAN address on the phone.
 untrusted network.** HTTP must remain reachable while reviewing; this is not an
 offline browser application.
 
+## Docker
+
+Container images are published to `ghcr.io/corani/wren` for Linux amd64 and arm64.
+Run a stable release with a named volume for durable progress:
+
+```sh
+docker run -d --name wren \
+  -p 127.0.0.1:8080:8080 \
+  --mount type=volume,source=wren-data,target=/data \
+  ghcr.io/corani/wren:latest
+```
+
+The container runs as UID/GID `1000:1000` by default and stores SQLite at `/data/wren.db`.
+For a bind mount, make the directory writable by that user. Keep the volume
+when replacing the container. Publishing the host port on `127.0.0.1` limits it
+to the local machine; expose it to a trusted LAN only deliberately.
+
+To build locally:
+
+```sh
+docker build -t wren:local .
+```
+
+Override the user and directory ownership at build time with `UID` and `GID`:
+
+```sh
+docker build --build-arg UID="$(id -u)" --build-arg GID="$(id -g)" -t wren:local .
+```
+
+Runtime `--user UID:GID` overrides only the process identity, not directory
+ownership; the data and temporary directories must remain writable by that user.
+Existing volumes retain their ownership when switching images.
+
+Alternatively, build and run locally with Docker Compose:
+
+```sh
+docker compose up --build -d
+```
+
+The Compose service binds to `127.0.0.1:8080`, restarts unless explicitly stopped,
+and stores progress in its own project-scoped `wren-data` volume. `docker compose
+down` preserves that volume; adding `--volumes` deletes it.
+To build with a different UID/GID:
+
+```sh
+WREN_UID="$(id -u)" WREN_GID="$(id -g)" docker compose up --build -d
+```
+
+The image is a static Go binary in a `scratch` runtime, with no shell or frontend
+build tooling. All web assets and vocabulary are embedded.
+
+## CI and releases
+
+Pull requests and pushes to `master` run unit tests with the race detector,
+`go vet`, the module-pinned golangci-lint, and a two-architecture container build.
+PRs do not log in to GHCR or publish images. Successful `master` pushes publish
+`edge` and commit-SHA image tags.
+
+Release a version to run the same checks, publish the container, and create a
+GitHub release with generated notes, Linux amd64/arm64 `.tar.gz` binaries, and
+`SHA256SUMS`:
+
+```sh
+./build.sh release          # Bump the latest stable tag's patch version
+./build.sh release v1.0.0   # Choose an explicit version instead
+# Short alias: ./build.sh -r [VERSION]
+```
+
+Without a version, the helper fetches tags from `origin` and increments the patch
+of the highest stable `vMAJOR.MINOR.PATCH` tag across local and fetched tags.
+Prereleases are ignored; with no stable tags, the first version is `v0.0.1`.
+
+Commit all changes first. The helper requires a clean worktree and an attached
+branch, rejects existing local or remote tags, and runs tests, vet, lint, and a
+versioned build. It creates an annotated tag and atomically pushes the current
+branch and that tag to `origin`, without force-pushing or committing anything.
+Release must be the final script action, and earlier failed actions prevent it.
+If the push fails, the local tag is retained; resolve the error and retry the
+printed `git push` command. Publishing is handled by GitHub Actions, not locally.
+
+Release builds use the tagged commit, not the current branch tip. Stable tags
+publish images such as `1.0.0` and update `latest`; prerelease tags such as
+`v1.1.0-rc.1` create prereleases and do not update the `latest` image. Downloaded
+binaries report the tag through `wren --version`.
+
+Workflows use version-tagged actions and the built-in `GITHUB_TOKEN`; no personal
+access token or Docker Hub credentials are required. Repository Actions must
+allow the release job to write contents and the Docker job to write packages.
+The GHCR package's visibility is managed separately from repository visibility;
+make it public if anonymous image pulls are desired. The first image/release
+will exist only after the corresponding workflow has run successfully.
+
+Renovate is configured in `.github/renovate.json` to maintain Go dependencies,
+Docker base images, and version-tagged GitHub Actions. It follows Unwise's policy:
+patch and minor updates can automerge, major updates require Dependency Dashboard
+approval, and at most four update PRs are open concurrently. Go updates run
+`go mod tidy`. Enable the Renovate GitHub App for this repository to receive
+dependency-update PRs, and enable GitHub's auto-merge setting to use platform
+automerge.
+
+For a local versioned build, use `VERSION=v1.0.0 ./build.sh build`.
+
 ## Practice
 
 Choose an HSK group, optional lower levels, a batch size from 1 to 100, and any

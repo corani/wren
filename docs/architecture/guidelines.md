@@ -121,10 +121,15 @@ behavior and scope.
   ./build.sh -g -t -v -l -b
   ```
 
-- Actions also have word aliases: `gen`, `test`, `vet`, `lint`, `build`, and
-  `install`. `-g` runs `go fix` followed by gofumpt; `-b` writes `bin/wren`;
+- Actions also have word aliases: `gen`, `test`, `vet`, `lint`, `build`,
+  `install`, and `release`. `-g` runs `go fix` followed by gofumpt; `-b` writes `bin/wren`;
   `-i` installs the executable. Run `./build.sh -h` for help. Multiple actions
   run in argument order; a failed action leaves the script's exit status nonzero.
+- `-r [VERSION]` / `release [VERSION]` must be the final action. Without a version,
+  it fetches tags and increments the highest stable tag's patch, starting at
+  `v0.0.1` if none exist. It requires a clean worktree, runs validation, creates an
+  annotated tag, and atomically pushes the current branch and tag to `origin`.
+  It never commits changes or force-pushes.
 - Build and install target `cmd/wren`; build outputs go to `bin/`. The script
   does not generate application code.
 - Use the Go version declared by the module and keep module manifests and sums

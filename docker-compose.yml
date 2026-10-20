@@ -1,0 +1,15 @@
+services:
+  wren:
+    build:
+      context: .
+      args:
+        UID: "${WREN_UID:-1000}"
+        GID: "${WREN_GID:-1000}"
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - wren-data:/data
+    restart: unless-stopped
+
+volumes:
+  wren-data:
