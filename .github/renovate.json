@@ -37,6 +37,30 @@
         "major-update"
       ],
       "dependencyDashboardApproval": true
+    },
+    {
+      "matchManagers": [
+        "gomod"
+      ],
+      "matchDepNames": [
+        "go"
+      ],
+      "matchDepTypes": [
+        "golang"
+      ],
+      "rangeStrategy": "bump"
+    },
+    {
+      "matchManagers": [
+        "gomod",
+        "dockerfile"
+      ],
+      "matchPackageNames": [
+        "go",
+        "golang"
+      ],
+      "groupName": "Go version",
+      "minimumGroupSize": 2
     }
   ],
   "dependencyDashboardLabels": [
