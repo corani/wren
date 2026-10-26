@@ -135,7 +135,10 @@ patch and minor updates can automerge, major updates require Dependency Dashboar
 approval, and at most four update PRs are open concurrently. Go updates run
 `go mod tidy`. Go minimum-version bumps are enabled, with `go.mod` and the
 Dockerfile's `GO_VERSION` updates grouped into one PR that waits until both
-dependencies have an update available.
+version references can be updated. A custom regex manager updates `GO_VERSION`
+from the same Go release datasource as `go.mod`; the native Dockerfile manager's
+overlapping `golang` update is disabled because the image tag combines an ARG
+with the literal `-trixie` suffix.
 Enable the Renovate GitHub App for this repository to receive
 dependency-update PRs, and enable GitHub's auto-merge setting to use platform
 automerge.
