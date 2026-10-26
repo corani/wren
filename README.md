@@ -133,7 +133,10 @@ Renovate is configured in `.github/renovate.json` to maintain Go dependencies,
 Docker base images, and version-tagged GitHub Actions. It follows Unwise's policy:
 patch and minor updates can automerge, major updates require Dependency Dashboard
 approval, and at most four update PRs are open concurrently. Go updates run
-`go mod tidy`. Enable the Renovate GitHub App for this repository to receive
+`go mod tidy`. Go minimum-version bumps are enabled, with `go.mod` and the
+Dockerfile's `GO_VERSION` updates grouped into one PR that waits until both
+dependencies have an update available.
+Enable the Renovate GitHub App for this repository to receive
 dependency-update PRs, and enable GitHub's auto-merge setting to use platform
 automerge.
 
