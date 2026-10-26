@@ -53,14 +53,22 @@
     {
       "matchManagers": [
         "gomod",
-        "dockerfile"
+        "custom.regex"
       ],
       "matchPackageNames": [
-        "go",
-        "golang"
+        "go"
       ],
       "groupName": "Go version",
       "minimumGroupSize": 2
+    },
+    {
+      "matchManagers": [
+        "dockerfile"
+      ],
+      "matchPackageNames": [
+        "golang"
+      ],
+      "enabled": false
     }
   ],
   "dependencyDashboardLabels": [
@@ -73,6 +81,20 @@
   "enabledManagers": [
     "gomod",
     "dockerfile",
-    "github-actions"
+    "github-actions",
+    "custom.regex"
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/^Dockerfile$/"
+      ],
+      "matchStrings": [
+        "(?:^|\\r?\\n)ARG GO_VERSION=(?<currentValue>\\d+\\.\\d+\\.\\d+)(?:\\r?\\n|$)"
+      ],
+      "depNameTemplate": "go",
+      "datasourceTemplate": "golang-version"
+    }
   ]
 }
