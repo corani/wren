@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-ARG GO_VERSION=1.27.2
+ARG GO_VERSION=1.27.3
 FROM --platform=$BUILDPLATFORM golang:${GO_VERSION}-trixie AS build
 
 WORKDIR /src
