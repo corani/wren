@@ -12,7 +12,7 @@ require (
 	github.com/open-spaced-repetition/go-fsrs/v4 v4.0.0
 	github.com/spf13/cobra v1.10.2
 	github.com/stretchr/testify v1.12.1
-	modernc.org/sqlite v1.61.0
+	modernc.org/sqlite v1.61.1
 )
 
 require (
